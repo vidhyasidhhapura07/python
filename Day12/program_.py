@@ -16,11 +16,11 @@
 
 # # ValueError with try and except block
 
-# try :
-#     n = int(input("enter a value: "))
-#     print(f"The number you entered is {n}.")
-# except ValueError:
-#     print("Invalid Value...!")
+try :
+    n = int(input("enter a value: "))
+    print(f"The number you entered is {n}.")
+except ValueError:
+    print("Invalid Value...!")
 
 # # ZeroDivisionError with try and except block
 
@@ -52,21 +52,21 @@
 # else:
 #     print("True")
 
-#  # raise 
+# # raise 
 
 # x = -1 
 
 # if x < 0:
 #     raise Exception ("please enter possitive value")
 
-# raise 2
+# # raise 2
 
 # x = "Hello"
 
 # if not type(x) is int :
 #     raise TypeError ("Only Allow for Integer Value")
 
-# try except else or finally block 
+# # try except else or finally block 
 
 # try :
 #     x = 70
